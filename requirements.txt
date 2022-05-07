@@ -1,3 +1,5 @@
 Django
 channels
 channels-redis
+uvicorn
+uvicorn[standard]

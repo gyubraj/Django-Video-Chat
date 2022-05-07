@@ -14,7 +14,7 @@ from django.core.asgi import get_asgi_application
 from channels.auth import AuthMiddlewareStack
 import chat.routing
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DjangoVideoChat.settings')
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
