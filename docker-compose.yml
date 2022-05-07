@@ -7,7 +7,7 @@ services:
   video-chat:
     build: .
     platform: linux/amd64
-    command: python manage.py runserver 0.0.0.0:8000
+    command: uvicorn DjangoVideoChat.asgi:application --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
     volumes:
