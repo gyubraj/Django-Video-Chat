@@ -1,0 +1,5 @@
+venv
+.gitattributes
+index.html
+db.sqlite3
+.vscode

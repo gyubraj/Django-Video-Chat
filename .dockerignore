@@ -1,0 +1,7 @@
+venv
+index.html
+docker-compose.yml
+Dockerfile
+README.md
+db.sqlite3
+.gitattributes
